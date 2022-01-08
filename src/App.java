@@ -1,4 +1,8 @@
 
+// This is a Futoshiki detector written in Java and utilising the image processing opencv library
+// 
+
+
 import org.opencv.core.Core;
 import org.opencv.core.Rect;
 import org.opencv.core.Mat;

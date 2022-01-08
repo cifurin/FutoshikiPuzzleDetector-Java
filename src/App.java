@@ -6,11 +6,11 @@ import org.opencv.core.Point;
 import org.opencv.core.MatOfPoint;
 import org.opencv.core.MatOfPoint2f;
 import org.opencv.core.Scalar;
-import org.opencv.core.Size;
+//import org.opencv.core.Size;
 
 import org.opencv.highgui.HighGui;
 import org.opencv.highgui.ImageWindow;
-import org.opencv.imgcodecs.Imgcodecs;
+//import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 import org.opencv.videoio.VideoCapture;
 
@@ -83,12 +83,12 @@ public class App{
         Mat gray = new Mat();
         Mat thresh = new Mat();
         Mat hierarchy = new Mat();
-        Mat resized = new Mat();
+        //Mat resized = new Mat();
 
         MatOfPoint2f approxCurve = new MatOfPoint2f();
 
         List<Point> points= new ArrayList<Point>();
-        List<MatOfPoint> pts = new ArrayList<MatOfPoint>();
+        //List<MatOfPoint> pts = new ArrayList<MatOfPoint>();
 
         HighGui.namedWindow( "frame", ImageWindow.WINDOW_AUTOSIZE);
         HighGui.resizeWindow("frame", 600, 800);

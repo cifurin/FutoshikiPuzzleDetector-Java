@@ -1,6 +1,6 @@
 
 // This is a Futoshiki detector written in Java and utilising the image processing opencv library
-// 
+// Ready for new Repo in Github
 
 
 import org.opencv.core.Core;
